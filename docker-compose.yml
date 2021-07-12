@@ -6,7 +6,7 @@ services:
     restart: always
     network_mode: "host"
     volumes:
-      - "/var/lib/mysql-docker/db:/var/lib/mysql
+      - "/var/lib/mysql-docker/db:/var/lib/mysql"
       - "/usr/share/zoneinfo/America/New_York:/etc/localtime:ro"
     environment:
       MYSQL_ROOT_PASSWORD: "1jcZ%rZo86xmd&5x"
