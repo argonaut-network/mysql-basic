@@ -13,6 +13,6 @@ services:
       MYSQL_PASSWORD: "t*dYvNhBH^m&IZGx"
       MYSQL_DATABASE: "dbhost"
       MYSQL_USER: "dbhost"
-      MYSQL_TCP_PORT: "23344"
+      MYSQL_TCP_PORT: "3306"
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
