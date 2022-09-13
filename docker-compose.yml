@@ -9,8 +9,8 @@ services:
       - "/var/lib/mysql-docker/db:/var/lib/mysql"
       - "/usr/share/zoneinfo/America/New_York:/etc/localtime:ro"
     environment:
-      MYSQL_ROOT_PASSWORD: "1jcZ%rZo86xmd&5x"
-      MYSQL_PASSWORD: "t*dYvNhBH^m&IZGx"
+      MYSQL_ROOT_PASSWORD: $MYSQL_ROOT_PASSWORD
+      MYSQL_PASSWORD: $MYSQL_PASSWORD
       MYSQL_DATABASE: "dbhost"
       MYSQL_USER: "dbhost"
       MYSQL_TCP_PORT: "3306"
